@@ -1,0 +1,109 @@
+.gpt3_footer {
+    background: rgba(3, 27, 52, 1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gpt3_footer-heading{
+    text-align: center;
+    justify-content: center;
+}
+.gpt3_footer-heading-btn {
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+.gpt3_footer-heading-btn button{
+    font-family: var(--font-family);
+    margin-top: 5rem;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.gpt3_footer-heading h1 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+
+
+}
+.gpt3_footer-container-mark h2{
+    font-family: var(--font-family);
+    color: #fff;
+
+}
+.gpt3_footer-container-mark p{
+    width: 200px;
+
+}
+.gpt3_footer-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+.gpt3_footer-container-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 1.5rem;
+    
+}
+.gpt3_footer-container-links h3 {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 30px;
+
+}
+.gpt3_footer-container-linksb {
+    margin-left: 17rem;
+}
+.gpt3_footer-container-linksc {
+    margin-left: 17rem;
+}
+.gpt3_footer-container-links p{
+    margin-bottom: 30px;
+}
+
+.gpt3_footer-copyright{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -3rem;
+}
+
+   
+p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width:990px)  {
+    .gpt3_footer-container-linksb {
+        margin-left: auto;
+    }
+    .gpt3_footer-container-linksc {
+        margin-left: auto;
+    }
+  }
+  
+ 
+  @media screen and (max-width:550px)  {
+    .gpt3_footer-container-mark{
+        margin: auto;
+    }
+    .gpt3_footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6rem;
+    } 
+}
